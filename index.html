@@ -10,8 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap" rel="stylesheet">
 
+
 </head>
-<body id="testing">
+<body id="testing" onclick="audioElement.play(); bondesjakkauto();">
 
     <div id="wrapper">
         <p> &#128128 Halloween Bondesjakk &#128128</p>
@@ -31,6 +32,10 @@
             </div>
             <div id="announce-box"><h1 id="announce">Ghost WINS!<span class="spook">&#128123</span> </h1></div>
         </div>
+        <script>
+            var audioElement = new Audio('spooky.mp3');
+            audioElement.volume = 0.03;
+        </script>
         <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
         <span class="signatur"> Aksel  Flemming  Rolf  Sigve </span>
     </div>
