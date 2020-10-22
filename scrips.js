@@ -1,6 +1,16 @@
 // JavaScript source code
 var boxes = document.getElementsByClassName("box");
 
+function startSpill() {
+    var audioElement = new Audio('spooky.mp3');
+    var knapp = document.getElementById('testing');
+    var unwrap = document.getElementById('wrapper-inner');
+    audioElement.volume = 0.2;
+    audioElement.play();
+    unwrap.style.display = 'block';
+    knapp.style.display = 'none';
+}
+
     function bondesjakkauto() {
 
         var time = 1500;
