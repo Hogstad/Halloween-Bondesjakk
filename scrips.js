@@ -13,7 +13,7 @@ function startSpill() {
 
     function bondesjakkauto() {
 
-        var time = 2000;
+        var time = 1800;
         setTimeout(function () {
 
             boxes[0].innerHTML = "&#128123"
